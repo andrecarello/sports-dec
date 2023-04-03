@@ -10,6 +10,13 @@ git pull origin main
 git checkout -b [task-name]
 ```
 
+#### Add`s
+- Only add files who you worked and belongs to the task
+```javascript
+git add src/controllers/cart.controller.ts src/controllers/order.controllers.ts src/persistence/cart.persistence.ts
+```
+`Important:` Never use `git add .`
+
 #### Commits
 - commit is always important, so don't be afraid of it. commit frequently and small
 - descriptive commits must have a description of what was done, like
